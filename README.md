@@ -15,10 +15,10 @@ In case of KML management, a KML file will be created in your device, and you wi
 Implementing a new information manager
 ========================
 To implement your own way to manage information, and work with the main code, your class will need 4 main methods:
-	- `List<Object> getPoints()` - returns all the points to show on map	
-	- `void addPoint(Object)` - adds a new point	
-	- `void deletePoints()` - deletes all added points
-	- `void open()` and `void close()` - these two methods are normally used to open/start and close/finish managers. If you think there's no need, just implement them in blank.
+- `List<Object> getPoints()` - returns all the points to show on map	
+- `void addPoint(Object)` - adds a new point	
+- `void deletePoints()` - deletes all added points
+- `void open()` and `void close()` - these two methods are normally used to open/start and close/finish managers. If you think there's no need, just implement them in blank.
 	
 Future work
 ========================
