@@ -9,12 +9,13 @@ The layout is also very simple, a bar with a *add button*, a *map* and a few men
 
 Using
 ========================
-As I said, now, you could make use of this application using a MySQL database , SQLite database and a KML file to manage your information. To define that, you need to comment/uncomment the respective instance in *App.java* class.
+As I said, now, you could make use of this application using a *MySQL* database , *SQLite* database and a *KML* file to manage your information. To define that, you need to comment/uncomment the respective instance in *App.java* class.
 In case of KML management, a KML file will be created in your device, and you will be able to use your application being offline. After you could upload the file to *Google Earth* to check your saved locations.
 
 Implementing a new information manager
 ========================
 To implement your own way to manage information, and work with the main code, your class will need 5 main methods:
+
 * `List<Object> getPoints()` - returns all the points to show on map	
 * `void addPoint(Object)` - adds a new point	
 * `void deletePoints()` - deletes all added points
