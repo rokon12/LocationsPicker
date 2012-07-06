@@ -5,14 +5,12 @@ To enable the user to implement other ways to keep information, the main code is
 If you want to save more than a Location, fork this project and adjust the code for that. I think it will be easy. I will be glad if you notice any problems or code improvements.
 The layout is also very simple, a bar with a *add button*, a *map* and a few menu options.
 
-[Screenshot](LocationsPicker/raw/master/ss/activity.png)
-
 Using
 ========================
 As I said, now, you could make use of this application using a *MySQL* database , *SQLite* database and a *KML* file to manage your information. To define that, you need to comment/uncomment the respective instance in *App.java* class.
 In case of KML management, a KML file will be created in your device, and you will be able to use your application being offline. After you could upload the file to *Google Earth* to check your saved locations.
 
-Implementing a new information manager
+Implementing a new info manager
 ========================
 To implement your own way to manage information, and work with the main code, your class will need 5 main methods:
 
