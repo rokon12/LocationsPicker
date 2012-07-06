@@ -1,6 +1,6 @@
 About
 ========================
-In order of other project that I'm working with, I decided to provide a sample of an android application that simply saves locations. This is a normally task of many applications so, my intention was to create an easy and generic way to do that. You could keep your information in a *MySQL* database, *SQLite* database, or *KML file*. 
+In order of other project that I'm working on, I decided to provide a sample of an android application that simply saves locations. This is a normally task of many applications so, my intention was to create an easy and generic way to do that. You could keep your information in a *MySQL* database, *SQLite* database, or *KML file*. 
 To enable the user to implement other ways to keep information, the main code is independent of the way you manage locations. You just need to follow some rules.
 If you want to save more than a Location, fork this project and adjust the code for that. I think it will be easy. I will be glad if you notice any problems or code improvements.
 The layout is also very simple, a bar with a *add button*, a *map* and a few menu options.
@@ -20,11 +20,6 @@ To implement your own way to manage information, and work with the main code, yo
 * `void addPoint(Object)` - adds a new point	
 * `void deletePoints()` - deletes all added points
 * `void open()` and `void close()` - these two methods are normally used to open/start and close/finish managers. If you think there's no need, just implement them in blank.
-	
-Future work
-========================
-As we all know, many times the accurate of our location's device is not the best. So that, my idea is, when an user adds a location, he could be able to look at the map and move the marker, specifying the exactly location that he wants to save. The main work will be an interface enabling this.
-Others ways to manage information would be nice too.
 	
 Android Support
 ========================
